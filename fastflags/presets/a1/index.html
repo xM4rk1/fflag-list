@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.799497593765">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.799497880357">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.7.0">
@@ -27,12 +27,12 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=3.7.0.799497593765" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.7.0.799497880357" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.7.0.799497593765" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.7.0.799497880357" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.7.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.7.0.799497593765" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../../resources/js/prism.js?v=3.7.0.799497593765" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.7.0.799497880357" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../../resources/js/prism.js?v=3.7.0.799497880357" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -245,12 +245,10 @@
     &quot;DFIntCSGLevelOfDetailSwitchingDistanceL12&quot;: &quot;85&quot;,
     &quot;DFIntCSGLevelOfDetailSwitchingDistanceL23&quot;: &quot;85&quot;,
     &quot;DFIntCSGLevelOfDetailSwitchingDistanceL34&quot;: &quot;85&quot;,
-    &quot;DFIntMaxFrameBufferSize&quot;: &quot;4&quot;, // Frame Buffer
     &quot;DFFlagTextureQualityOverrideEnabled&quot;: &quot;True&quot;, // Force Texture Quality
     &quot;DFIntTextureQualityOverride&quot;: &quot;3&quot;,
     &quot;DFIntDebugFRMQualityLevelOverride&quot;: &quot;1&quot;, // Override FRM (Quality Level)
     &quot;FFlagDebugGraphicsPreferD3D11FL10&quot;: &quot;True&quot;, // Use DirectX 10
-    &quot;FFlagMovePrerenderV2&quot;: &quot;True&quot;, // Remove if input lag occurs
     &quot;FFlagFastGPULightCulling3&quot;: &quot;True&quot;, // Enable GPU Light Culling
     &quot;FIntRenderLocalLightUpdatesMax&quot;: &quot;8&quot;, // Limit light updates
     &quot;FIntRenderLocalLightUpdatesMin&quot;: &quot;6&quot;,
@@ -277,6 +275,8 @@
     &quot;DFFlagDisableDPIScale&quot;: &quot;True&quot;, // Disable DPI Scaling
     &quot;FFlagTaskSchedulerLimitTargetFpsTo2402&quot;: &quot;False&quot;, // Remove 240 FPS Limit
     &quot;DFIntTaskSchedulerTargetFps&quot;: &quot;9999&quot;,
+    &quot;FFlagMovePrerenderV2&quot;: &quot;True&quot;, // PreRender (Remove if input lag occurs)
+    &quot;DFIntMaxFrameBufferSize&quot;: &quot;4&quot;, // Frame Buffer
 
     // === Telemetry ===
     &quot;FFlagDebugDisableTelemetryEphemeralCounter&quot;: &quot;True&quot;,
