@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.799498379715">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.799554860851">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.7.0">
@@ -27,12 +27,12 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=3.7.0.799498379715" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.7.0.799554860851" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.7.0.799498379715" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.7.0.799554860851" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.7.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.7.0.799498379715" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../../resources/js/prism.js?v=3.7.0.799498379715" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.7.0.799554860851" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../../resources/js/prism.js?v=3.7.0.799554860851" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -224,6 +224,53 @@
         <span>Approved Presets</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="high-quality">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#high-quality">#</doc-anchor-trigger>
+        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M14.4 3.419a.639.639 0 0 1 1.2 0l.61 1.668a9.587 9.587 0 0 0 5.703 5.703l1.668.61a.639.639 0 0 1 0 1.2l-1.668.61a9.587 9.587 0 0 0-5.703 5.703l-.61 1.668a.639.639 0 0 1-1.2 0l-.61-1.668a9.587 9.587 0 0 0-5.703-5.703l-1.668-.61a.639.639 0 0 1 0-1.2l1.668-.61a9.587 9.587 0 0 0 5.703-5.703l.61-1.668ZM8 16.675a.266.266 0 0 1 .5 0l.254.694a3.992 3.992 0 0 0 2.376 2.377l.695.254a.266.266 0 0 1 0 .5l-.695.254a3.992 3.992 0 0 0-2.376 2.377l-.254.694a.266.266 0 0 1-.5 0l-.254-.694a3.992 3.992 0 0 0-2.376-2.377l-.695-.254a.266.266 0 0 1 0-.5l.695-.254a3.992 3.992 0 0 0 2.376-2.377L8 16.675ZM4.2.21a.32.32 0 0 1 .6 0l.305.833a4.793 4.793 0 0 0 2.852 2.852l.833.305a.32.32 0 0 1 0 .6l-.833.305a4.793 4.793 0 0 0-2.852 2.852L4.8 8.79a.32.32 0 0 1-.6 0l-.305-.833a4.793 4.793 0 0 0-2.852-2.852L.21 4.8a.32.32 0 0 1 0-.6l.833-.305a4.793 4.793 0 0 0 2.852-2.852L4.2.21Z"/></g></g></svg> High Quality</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    // === Lighting ===
+    &quot;FFlagDebugForceFutureIsBrightPhase3&quot;: &quot;True&quot;, // Enable Future Lighting
+
+    // === Performance ===
+    &quot;FFlagDebugCheckRenderThreading&quot;: &quot;True&quot;,
+    &quot;FFlagRenderDebugCheckThreading2&quot;: &quot;True&quot;, // Enable HyperThreading
+    &quot;FFlagTaskSchedulerLimitTargetFpsTo2402&quot;: &quot;False&quot;, // Remove 240 FPS Limit
+    &quot;DFIntTaskSchedulerTargetFps&quot;: &quot;9999&quot;, // Set custom FPS target
+
+    // === UI ===
+    &quot;FIntFullscreenTitleBarTriggerDelayMillis&quot;: &quot;3600000&quot;, // Disable Fullscreen Title Bar
+
+    // === Ads ===
+    &quot;FFlagAdServiceEnabled&quot;: &quot;False&quot;, // Disable Ads
+
+    // === Telemetry ===
+    &quot;FFlagDebugDisableTelemetryEphemeralCounter&quot;: &quot;True&quot;,
+    &quot;FFlagDebugDisableTelemetryEphemeralStat&quot;: &quot;True&quot;,
+    &quot;FFlagDebugDisableTelemetryEventIngest&quot;: &quot;True&quot;,
+    &quot;FFlagDebugDisableTelemetryPoint&quot;: &quot;True&quot;,
+    &quot;FFlagDebugDisableTelemetryV2Counter&quot;: &quot;True&quot;,
+    &quot;FFlagDebugDisableTelemetryV2Event&quot;: &quot;True&quot;,
+    &quot;FFlagDebugDisableTelemetryV2Stat&quot;: &quot;True&quot;,
+
+    // === Loading ===
+    &quot;FFlagEnableQuickGameLaunch&quot;: &quot;True&quot;, // Enable Quick Game Launch
+    &quot;DFIntNumAssetsMaxToPreload&quot;: &quot;9999999&quot;, // Max asset preload
+    &quot;DFIntAssetPreloading&quot;: &quot;9999999&quot;,
+
+    // === Graphics ===
+    &quot;DFIntRenderClampRoughnessMax&quot;: &quot;-640000000&quot;, // Shiny (Remove if you don't like it)
+    &quot;DFIntDebugFRMQualityLevelOverride&quot;: &quot;21&quot;, // Force to max quality level
+    &quot;FFlagFastGPULightCulling3&quot;: &quot;True&quot;, // Enable GPU Light Culling
+    &quot;DFIntMaxFrameBufferSize&quot;: &quot;4&quot;, // Frame Buffer Size
+    &quot;DFFlagTextureQualityOverrideEnabled&quot;: &quot;True&quot;, // Enable Texture Quality Override
+    &quot;DFIntTextureQualityOverride&quot;: &quot;3&quot;, // Texture Quality Level
+    &quot;FIntDebugForceMSAASamples&quot;: &quot;4&quot; // Force MSAA (4x)
+}</code></pre>
+</doc-codeblock></div>
 <doc-anchor-target id="low-quality">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#low-quality">#</doc-anchor-trigger>
@@ -263,6 +310,9 @@
     &quot;FIntFullscreenTitleBarTriggerDelayMillis&quot;: &quot;3600000&quot;, // Disable Fullscreen Title Bar
     &quot;FFlagUserHideCharacterParticlesInFirstPerson&quot;: &quot;True&quot;, // Hide 1st-person particles
     &quot;FIntRobloxGuiBlurIntensity&quot;: &quot;0&quot;, // Remove Disconnect/Loading Blur
+
+    // === Ads ===
+    &quot;FFlagAdServiceEnabled&quot;: &quot;False&quot;, // Disable Ads
 
     // === Network ===
     &quot;DFIntConnectionMTUSize&quot;: &quot;1472&quot;, // MTU Size
