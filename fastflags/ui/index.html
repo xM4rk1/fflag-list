@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.9.0.802604363064">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.10.0.802920476460">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 3.9.0">
+    <meta name="generator" content="Retype 3.10.0">
 
     <!-- Primary Meta Tags -->
     <title>User Interface/Visuals | fastflags.space</title>
@@ -33,33 +33,33 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link href="../../static/favicon.png" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.9.0.802604363064" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.10.0.802920476460" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.9.0.802604363064" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.9.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.9.0.802604363064" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.9.0.802604363064" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.10.0.802920476460" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.10.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.10.0.802920476460" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.10.0.802920476460" defer></script>
 </head>
 <body>
-    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+    <div id="retype-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
         <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
     
-        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+        <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
             <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
                 <!-- Mobile menu button skeleton -->
-                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
-                <div v-cloak id="docs-sidebar-toggle"></div>
+                <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="retype-sidebar-left-toggle-button"></div>
         
                 <!-- Logo -->
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
-                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-xl">
+                        <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-xl">
                             <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
                                 <img class="max-h-10 dark:hidden md:inline-block" src="../../assets/005.gif">
                                 <img class="max-h-10 hidden dark:inline-block" src="../../assets/005.gif">
                             </span>
                             <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">fastflags*space</span>
-                        </a><span class="hidden mt-1 px-2 py-1 ml-4 text-xs font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-md md:inline-block">$</span>
+                        </a><span id="retype-branding-label" class="hidden mt-1 px-2 py-1 ml-4 text-xs font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-md md:inline-block">$</span>
                     </div>
         
                     <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
@@ -67,7 +67,7 @@
         
                 <div class="flex justify-between md:grow">
                     <!-- Top Nav -->
-                    <nav class="hidden md:flex">
+                    <nav id="retype-header-nav" class="hidden md:flex">
                         <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                             <li class="mr-6">
                                 <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://discord.gg/6zqNQTSkrg">
@@ -125,7 +125,7 @@
                     </div>
         
                     <div v-cloak class="flex justify-end grow">
-                        <div id="docs-mobile-search-button"></div>
+                        <div id="retype-mobile-search-button"></div>
                         <doc-search-desktop></doc-search-desktop>
         
                         <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
@@ -135,7 +135,7 @@
             </div>
         </header>
     
-        <div class="container relative flex bg-white">
+        <div id="retype-container" class="container relative flex bg-white">
             <!-- Sidebar Skeleton -->
             <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-white border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
             
@@ -210,11 +210,11 @@
             <div class="grow min-w-0 dark:bg-dark-850">
                 <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
                 <div class="flex">
-                    <div class="min-w-0 p-4 grow md:px-16">
+                    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
                         <main class="relative pb-12 lg:pt-2">
-                            <div class="docs-markdown" id="docs-content">
+                            <div class="retype-markdown" id="retype-content">
                                 <!-- Rendered if sidebar right is enabled -->
-                                <div id="docs-sidebar-right-toggle"></div>
+                                <div id="retype-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
 <doc-anchor-target id="user-interfacevisuals" class="break-words">
     <h1>
@@ -229,7 +229,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FStringDebugHighlightSpecificFont&quot;: &quot;rbxasset://fonts/families/BuilderSans.json&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -245,7 +245,7 @@
 </figure>
 </p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagMuteTogglesEnableIXP&quot;: &quot;False&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -256,7 +256,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagWebViewProtocol&quot;: &quot;False&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -267,7 +267,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagLuaAppsEnableParentalControlsTab&quot;: &quot;False&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -278,7 +278,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagAXSearchLandingPageIXPEnabled4&quot;: &quot;False&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -289,7 +289,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
      &quot;FFlagAXDefaultAvatarToShopEnabled3&quot;: &quot;False&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -300,7 +300,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagToastNotificationsProtocolEnabled2&quot;: &quot;False&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -311,7 +311,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagGameDetailsDecoupledCommunication&quot;: &quot;False&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -328,7 +328,7 @@
 </figure>
 </p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagFixReducedMotionStuckIGM2&quot;: &quot;False&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -339,7 +339,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FIntNewInGameMenuPercentRollout3&quot;: &quot;100&quot;,
     &quot;FFlagEnableInGameMenuControls&quot;: &quot;False&quot;,
     &quot;FFlagDisableNewIGMinDUA&quot;: &quot;True&quot;,
@@ -354,7 +354,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagReconnectDisabled&quot;: &quot;True&quot;,
     &quot;FStringReconnectDisabledReason&quot;: &quot;You're stupid and I hate you&quot;
 }</code></pre>
@@ -366,7 +366,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagDebugDisplayFPS&quot;: &quot;True&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -395,7 +395,7 @@
     </div>
 </div>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FStringWhitelistVerifiedUserId&quot;: &quot;UserID&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -424,7 +424,7 @@
     </div>
 </div>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagOverridePlayerVerifiedBadge&quot;: &quot;True&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -435,7 +435,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagDebugDisplayUnthemedInstances&quot;: &quot;True&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -446,7 +446,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FIntRobloxGuiBlurIntensity&quot;: &quot;0&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -457,7 +457,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagNewCameraControls&quot;: &quot;True&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -468,7 +468,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;DFIntMicroProfilerDpiScaleOverride&quot;:  &quot;100&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -479,7 +479,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagImproveMicroprofilerReadability&quot;: &quot;False&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -490,7 +490,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FIntScrollWheelDeltaAmount&quot;: &quot;140&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -501,7 +501,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FIntMaxKickMessageLength&quot;: &quot;1&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -512,7 +512,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagLuaAppUseUIBloxColorPalettes1&quot;: &quot;False&quot;,
     &quot;FFlagLuaAppEnableFoundationColors7&quot;: &quot;False&quot;
 }</code></pre>
@@ -524,7 +524,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagInExperienceMenuReorderFirstVariant2&quot;: &quot;False&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -535,7 +535,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagLuaAppDevSubsEnabled&quot;: &quot;True&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -546,7 +546,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagDebugTextBoxServiceShowOverlay&quot;: &quot;True&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -557,7 +557,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;DFIntTextBoxServiceHistorySize&quot;: &quot;1&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -568,7 +568,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagDebugAdornsDisabled&quot;:  &quot;True&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -579,7 +579,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagDebugDontRenderUI&quot;: &quot;True&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -590,7 +590,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagDebugDontRenderScreenGui&quot;: &quot;True&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -601,7 +601,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagDisplayCollectiblesIcon&quot;: &quot;False&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -612,7 +612,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagEnableBubbleChatFromChatService&quot;: &quot;False&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -623,7 +623,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagVoiceBetaBadge&quot;: &quot;False&quot;,
     &quot;FFlagTopBarUseNewBadge&quot;: &quot;False&quot;,
     &quot;FFlagBetaBadgeLearnMoreLinkFormview&quot;: &quot;False&quot;,
@@ -638,7 +638,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FIntVRTouchControllerTransparency&quot;: &quot;0&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -649,7 +649,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagViewCollisionFadeToBlackInVR&quot;: &quot;False&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -660,7 +660,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;DFIntVideoMaxNumberOfVideosPlaying&quot;: &quot;0&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -672,7 +672,7 @@
 </doc-anchor-target>
 <p>@kezcn</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagDSAIllegalContentReporting2&quot;: &quot;False&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -701,7 +701,7 @@
     </div>
 </div>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagDebugEnableNewWebView2DevTool&quot;: &quot;True&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -712,7 +712,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagBetterTrackpadScrolling&quot;: &quot;True&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -723,7 +723,7 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
     &quot;FFlagInExperienceMenuResetButtonTextToRespawn&quot;: &quot;False&quot;
 }</code></pre>
 </doc-codeblock></div>
@@ -732,9 +732,9 @@
                                 <!-- Required only on API pages -->
                                 <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
                             </div>
-                            <footer class="clear-both">
+                            <footer id="retype-content-footer" class="clear-both">
                             
-                                <nav class="print:hidden flex mt-14">
+                                <nav id="retype-nextprev" class="print:hidden flex mt-14">
                                     <div class="w-1/2">
                                         <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../fastflags/qol/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
@@ -758,9 +758,9 @@
                             </footer>
                         </main>
                 
-                        <div class="print:border-none border-t dark:border-dark-650 pt-6 mb-8">
+                        <div id="retype-page-footer" class="print:border-none border-t dark:border-dark-650 pt-6 mb-8">
                             <footer class="flex flex-wrap items-center justify-between print:justify-center">
-                                <div class="print:hidden">
+                                <div id="retype-footer-links" class="print:hidden">
                                     <ul class="flex flex-wrap items-center text-sm">
                                         <li>
                                             <a class="inline-flex items-center mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="../../privacy-policy/">
@@ -794,7 +794,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="print:justify-center docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2025 – <a href="https://github.com/fastdotspace/">fastflags.space</a> – All rights reserved.</p></div>
+                                <div id="retype-copyright" class="print:justify-center docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2025 – <a href="https://github.com/fastdotspace/">fastflags.space</a> – All rights reserved.</p></div>
                             </footer>
                         </div>
                     </div>
@@ -821,7 +821,7 @@
     </div>
 
 
-    <div id="docs-overlay-target"></div>
+    <div id="retype-overlay-target"></div>
 
     <script data-cfasync="false">window.__DOCS__ = { "title": "User Interface/Visuals", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
