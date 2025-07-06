@@ -1,0 +1,59 @@
+# -----------------------------------------------------------------------------
+# Powered by Retype
+# -----------------------------------------------------------------------------
+
+breadcrumb:
+  enabled: true
+  home: ":icon-home:"
+  separator: "|"
+
+# -----------------------------------------------------------------------------
+
+input: .
+output: .retype
+
+# -----------------------------------------------------------------------------
+
+branding:
+  title: fastflags*space
+  logo: assets/005.gif
+  label: "YVL"
+
+  colors:
+    label:
+      text: "#7700ff"
+      background: "#0f0f0f"
+
+# -----------------------------------------------------------------------------
+
+links:
+  - text: Discord
+    link: https://discord.gg/6zqNQTSkrg
+    icon: assets/Discord-Symbol-Blurple.svg
+  - text: Repository
+    link: https://github.com/fastdotspace/fastflags.space
+    icon: mark-github
+  - text: Patreon
+    link: https://patreon.com/fastflags
+    icon: feed-heart
+
+# -----------------------------------------------------------------------------
+
+footer:
+  copyright: "© Copyright {{ year }} – fastflags.space – All rights reserved."
+  links:
+    - text: Privacy Policy
+      link: privacy-policy.md
+      icon: shield-lock
+    - text: Issues
+      link: https://github.com/fastdotspace/fastflags.space/issues
+      icon: comment-discussion
+
+# -----------------------------------------------------------------------------
+
+favicon: static/favicon.png
+
+# -----------------------------------------------------------------------------
+
+meta:
+  title: " | fastflags.space"
